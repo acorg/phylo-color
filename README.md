@@ -72,12 +72,14 @@ optional arguments:
 
 ## Tree formats
 
-Nexml, NEXUS, and Newick are supported.  If you give a filename via
-`--treeFile`, `phylo-color.py` will guess at its format based on the
-filename suffix (if any). If no suffix is found, or if the suffix is not
-recognized, or if the tree is given on standard input, Newick is
-assumed. To be explicit, use `--inFormat`.  The output format will be the
-same as the input, unless `--outFormat` specifies otherwise.
+[Nexml](http://www.nexml.org/),
+[NEXUS](https://en.wikipedia.org/wiki/Nexus_file), and
+[Newick](https://en.wikipedia.org/wiki/Newick_format) are supported.  If
+you give a filename via `--treeFile`, `phylo-color.py` will guess at its
+format based on the filename suffix (if any). If no suffix is found, or if
+the suffix is not recognized, or if the tree is given on standard input,
+Newick is assumed. To be explicit, use `--inFormat`.  The output format
+will be the same as the input, unless `--outFormat` specifies otherwise.
 
 Note that there is no guarantee that the tool you use to read the output
 file will respect the colors that are added by `phylo-color.py`!
