@@ -124,7 +124,7 @@ Taxa colors may also be given in a file with lines like
 Lines are treated as comments if `#` is the first non-blank character on
 the line. Empty and whitespace-only lines are ignored. Otherwise, lines
 must give a taxon name (or regular expression) followed by a color (as
-described for the `taxonColor` option above).
+described for the `--taxonColor` option above).
 
 ### Coloring precedence
 
