@@ -14,4 +14,4 @@ clean:
 # twine-pypi').
 upload:
 	python setup.py sdist
-	twine upload dist/py3seq-$$(grep "VERSION='" setup.py | cut -f2 -d"'").tar.gz
+	twine upload dist/phylo-color-$$(grep "VERSION='" setup.py | cut -f2 -d"'").tar.gz
