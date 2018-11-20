@@ -6,6 +6,12 @@ phylogenetic trees.
 Runs on (at least) Python 2.7.15 and 3.6 (and probably all versions of
 Python 3).
 
+## Installation
+
+```sh
+$ pip install phylo-color
+```
+
 ## Usage
 
 ```
